@@ -209,7 +209,8 @@ a:hover {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 30px;
-    padding: 50px;
+    margin: auto;
+    max-width: 1200px;
 }
 
 .card {
